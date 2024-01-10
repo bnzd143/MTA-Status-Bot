@@ -6,8 +6,8 @@ module.exports = {
   run(client, message, args) {
     Gamedig.query({
 	type: "mtasa", // by : zef
-      host: "178.32.127.216", // عنوان الخادم حطه هنا
-      port: "22003", // بورت الخادم حطه هنا
+      host: "45.146.253.59, // عنوان الخادم حطه هنا
+      port: "22141", // بورت الخادم حطه هنا
     })
       .then((state) => {
         if (state["raw"]["numplayers"] === 0) {
